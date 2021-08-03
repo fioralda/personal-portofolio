@@ -17,7 +17,7 @@ const Contact = () => {
     >
       <Flex direction='column' justifyContent='center' mt='20'>
         <Flex>
-          <Text fontSize='3xl'>You can find me... </Text>
+          <Text fontSize='3xl' color='white'>You can find me... </Text>
         </Flex>
         <Flex pt='10'>
           <Link href='mailto: fioraldaosmenai99@gmail.com' isExternal>

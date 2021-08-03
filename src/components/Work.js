@@ -8,7 +8,7 @@ const Work = () => {
       product: 'iWolt',
       summary: 'Wolt clone homepage.',
       longLine:
-        'I implemented this with ReactJS, Chakra-UI, React-Router-Dom, Zustand, Firebase.',
+        'I implemented this with ReactJS, Chakra-UI, React-Router-Dom, Zustand, Firebase. Deployed on Heroku with the use of GitHub Actions.',
       imageUrl: 'iWolt.png',
       buttonUrl: 'https://github.com/fioralda/iWolt-app',
     },
