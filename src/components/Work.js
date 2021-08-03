@@ -1,9 +1,4 @@
-import {
-  SimpleGrid,
-  Container,
-  Text,
-  Box,
-} from '@chakra-ui/react';
+import { SimpleGrid, Container, Text, Box } from '@chakra-ui/react';
 import Card from './Card';
 
 const Work = () => {
@@ -11,27 +6,35 @@ const Work = () => {
     {
       id: '1',
       product: 'iWolt',
-      summary: 'This is a summary, can be any length',
-      longLine: 'Very short, can be any description',
+      summary: 'Wolt clone homepage.',
+      longLine:
+        'I implemented this with ReactJS, Chakra-UI, React-Router-Dom, Zustand, Firebase.',
       imageUrl: 'iWolt.png',
       buttonUrl: 'https://github.com/fioralda/iWolt-app',
     },
     {
       id: '2',
       product: 'Expense Tracker app',
-      summary:
-        'Another summary, make sure that this is very responsivesfafsdfsdfsdfsdfsfsfsdf',
-      longLine: 'Billy Bob Bob Bob Bob likes Markiplier gameplay videos',
+      summary: 'Track your monthly expencies.',
+      longLine: 'I implemented this with ReactJS and CSS',
       imageUrl: 'expenseTracker.png',
       buttonUrl: 'https://github.com/fioralda/expense-tracker-app',
     },
     {
       id: '3',
       product: 'Mental Health app',
-      summary: 'Finalize them summary, hurry, we are close to deadline',
-      longLine: 'Wow, this is very descriptive! I wonder how long it is',
+      summary: 'Track your fitness and take mental advice.',
+      longLine: 'I implemented this with Flutter.',
       imageUrl: 'mentalHealth.jpg',
       buttonUrl: 'https://github.com/fioralda/MentalHealthAdvice',
+    },
+    {
+      id: '4',
+      product: 'Back Office System',
+      summary: 'Lab project of OOP.',
+      longLine: 'I implemented this with Java, Java Swing, MySQL.',
+      imageUrl: 'java.png',
+      buttonUrl: 'https://github.com/fioralda/backoffice-system',
     },
   ];
 
