@@ -15,6 +15,4 @@ function App() {
   );
 }
 
-// "homepage": "http://fioralda.github.io/personal-portofolio"
-
 export default App;
