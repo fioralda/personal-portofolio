@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,oBACE,uBAAwB,CACxB,eAAgB,CAChB,KACF","file":"main.47ba7b92.chunk.css","sourcesContent":[".primary-navigation {\r\n  position: -webkit-sticky;\r\n  position: sticky;\r\n  top: 0;\r\n}\r\n"]}
