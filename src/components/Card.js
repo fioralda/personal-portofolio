@@ -8,9 +8,10 @@ function Card({ product, summary, longLine, imageUrl, buttonUrl }) {
       p={4}
       display={{ md: 'flex' }}
       maxWidth='32rem'
-      borderWidth={1}
+      shadow='xl'
       rounded='2xl'
       margin={2}
+      // bgColor='fioralda.500'
     >
       <Image maxWidth='200px' margin='auto' src={imageUrl} alt='' />
       <Stack
@@ -40,10 +41,7 @@ function Card({ product, summary, longLine, imageUrl, buttonUrl }) {
         <Text my={2} color='gray.500'>
           {longLine}
         </Text>
-        <Link
-          href={buttonUrl}
-          isExternal
-        >
+        <Link href={buttonUrl} isExternal>
           <Button bgColor='gray.100'>Show me!</Button>
         </Link>
       </Stack>
